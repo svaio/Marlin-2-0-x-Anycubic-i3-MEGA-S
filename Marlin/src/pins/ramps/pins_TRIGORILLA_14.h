@@ -94,6 +94,13 @@
   #define OUTAGECON_PIN        58
 #endif
 
+// PIN15 broken
+#ifndef TEMP_0_PIN
+  #define TEMP_0_PIN                          13
+#endif
+#ifndef TEMP_1_PIN
+  #define TEMP_1_PIN                          15
+#endif
 #include "pins_RAMPS.h"
 
 //
